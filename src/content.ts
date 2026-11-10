@@ -150,7 +150,7 @@ export const content: Record<Lang, Content> = {
       kicker: 'About',
       title: 'Ownership, end to end.',
       paragraphs: [
-        "I'm a senior .NET developer based in Wrocław with 8 years of commercial experience. For the last 5+ years at Capgemini I've been building web and mobile applications for international enterprise clients in energy (power plants worldwide, from wind farms to nuclear) and telecom, in Scrum teams of 3–8 people alongside UX/UI designers and QA.",
+        "I'm a senior .NET developer based in Wrocław with 8 years of commercial experience. For the last 5+ years at Capgemini I've been building web applications for international enterprise clients in energy (power plants worldwide, from wind farms to nuclear) and telecom, in Scrum teams of 3–8 people alongside UX/UI designers and QA.",
         'My core is C#/.NET, Angular and Azure. I like owning a product area end to end: gathering requirements with the client, turning them into user stories, shipping, and looking after it in production. English is my daily working language with client stakeholders.',
       ],
       traits: [
@@ -172,7 +172,7 @@ export const content: Record<Lang, Content> = {
             { title: 'Software Engineer', period: '2021 – 2023' },
           ],
           summary:
-            'Full-stack developer in Scrum teams of 3–8 people, delivering web and mobile applications for international enterprise clients in the energy and telecom sectors. English is the daily language in dailies, refinements, planning, demos and retrospectives.',
+            'Full-stack developer in Scrum teams of 3–8 people, delivering web applications for international enterprise clients in the energy and telecom sectors. English is the daily language in dailies, refinements, planning, demos and retrospectives.',
           bulletsTitle: 'Beyond delivery',
           bullets: [
             'Interview candidates for the project and onboard new team members.',
@@ -212,9 +212,8 @@ export const content: Record<Lang, Content> = {
             'Built from scratch and launched in production within 6 months; owned delivery end to end.',
             'Gathered requirements with the client alongside a senior team lead and turned business assumptions into user stories.',
             'Transport orders for palletised shipments with weight and insurance cost calculation; automated bid requests to carriers (DHL, UPS).',
-            'Mobile app with QR code scanning, shipment tracking and damage documentation.',
           ],
-          tags: ['Project lead', 'Web + mobile', 'Carrier integrations', 'QR scanning'],
+          tags: ['Project lead', 'Carrier integrations', 'Cost calculation'],
         },
         {
           name: 'Form Creation Platform',
@@ -241,7 +240,6 @@ export const content: Record<Lang, Content> = {
         {
           name: 'Scaffolding & Insulation Management',
           label: 'Energy',
-          meta: 'Web and mobile',
           bullets: [
             'Multi-step status workflow and versioned reporting for scaffolding work in power plants.',
             'Shared attachments between report versions, reducing Azure Blob Storage costs.',
@@ -361,7 +359,7 @@ export const content: Record<Lang, Content> = {
       kicker: 'O mnie',
       title: 'Odpowiedzialność od początku do końca.',
       paragraphs: [
-        'Jestem senior .NET developerem z Wrocławia z 8-letnim doświadczeniem komercyjnym. Od ponad 5 lat w Capgemini tworzę aplikacje webowe i mobilne dla międzynarodowych klientów korporacyjnych z branży energetycznej (elektrownie na całym świecie, od farm wiatrowych po jądrowe) i telekomunikacyjnej, w zespołach Scrum liczących 3–8 osób, razem z projektantami UX/UI i QA.',
+        'Jestem senior .NET developerem z Wrocławia z 8-letnim doświadczeniem komercyjnym. Od ponad 5 lat w Capgemini tworzę aplikacje webowe dla międzynarodowych klientów korporacyjnych z branży energetycznej (elektrownie na całym świecie, od farm wiatrowych po jądrowe) i telekomunikacyjnej, w zespołach Scrum liczących 3–8 osób, razem z projektantami UX/UI i QA.',
         'Moja specjalność to C#/.NET, Angular i Azure. Lubię brać obszar produktu na siebie od początku do końca: zbieram wymagania z klientem, zamieniam je w user stories, dowożę i dbam o to, co działa na produkcji. Angielski to mój codzienny język pracy z interesariuszami klienta.',
       ],
       traits: [
@@ -383,7 +381,7 @@ export const content: Record<Lang, Content> = {
             { title: 'Software Engineer', period: '2021 – 2023' },
           ],
           summary:
-            'Full-stack developer w zespołach Scrum liczących 3–8 osób, dostarczający aplikacje webowe i mobilne dla międzynarodowych klientów korporacyjnych z sektora energetycznego i telekomunikacyjnego. Angielski na co dzień: daily, refinementy, planningi, dema i retrospektywy.',
+            'Full-stack developer w zespołach Scrum liczących 3–8 osób, dostarczający aplikacje webowe dla międzynarodowych klientów korporacyjnych z sektora energetycznego i telekomunikacyjnego. Angielski na co dzień: daily, refinementy, planningi, dema i retrospektywy.',
           bulletsTitle: 'Poza samym dowożeniem',
           bullets: [
             'Prowadzę rozmowy techniczne z kandydatami do projektu i wdrażam nowe osoby w zespole.',
@@ -423,9 +421,8 @@ export const content: Record<Lang, Content> = {
             'Zbudowany od zera i uruchomiony na produkcji w 6 miesięcy; odpowiadałem za całe dostarczenie.',
             'Zbierałem wymagania z klientem razem z senior team leadem i zamieniałem założenia biznesowe w user stories.',
             'Zlecenia transportowe dla przesyłek paletowych z wyliczaniem wagi i kosztu ubezpieczenia; automatyczne zapytania ofertowe do przewoźników (DHL, UPS).',
-            'Aplikacja mobilna ze skanowaniem kodów QR, śledzeniem przesyłek i dokumentowaniem uszkodzeń.',
           ],
-          tags: ['Project lead', 'Web + mobile', 'Integracje z przewoźnikami', 'Kody QR'],
+          tags: ['Project lead', 'Integracje z przewoźnikami', 'Wyceny kosztów'],
         },
         {
           name: 'Form Creation Platform',
@@ -452,7 +449,6 @@ export const content: Record<Lang, Content> = {
         {
           name: 'Scaffolding & Insulation Management',
           label: 'Energetyka',
-          meta: 'Web i mobile',
           bullets: [
             'Wieloetapowy workflow statusów i wersjonowane raporty dla prac rusztowaniowych w elektrowniach.',
             'Współdzielone załączniki między wersjami raportów, co obniżyło koszty Azure Blob Storage.',
