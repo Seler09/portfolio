@@ -1563,6 +1563,10 @@ main {
 
 .beyond-car {
   grid-column: span 2;
+}
+
+/* portrait photo: tall tile so the dial stays clear of the caption */
+.beyond-gauge {
   grid-row: span 2;
 }
 
@@ -1956,9 +1960,6 @@ main {
   .beyond-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  .beyond-car {
-    grid-row: span 1;
-  }
 }
 
 @media (max-width: 860px) {
@@ -2012,9 +2013,6 @@ main {
   .beyond-car,
   .beyond-moto {
     grid-column: auto;
-  }
-  .beyond-gauge {
-    height: auto;
   }
   .bento {
     grid-template-columns: 1fr;

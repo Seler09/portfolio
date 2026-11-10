@@ -308,11 +308,10 @@ export const content: Record<Lang, Content> = {
       title: 'Things I do with my hands.',
       items: [
         { icon: 'car', title: 'Classic Volvo 960', text: 'Keeping it on the road myself.', photo: `${IMG}volvo-960.webp`, alt: 'Grey Volvo 960 parked at night in Wrocław' },
+        { icon: 'gauge', title: 'Digital car gauge', text: 'Building one with my brother: hardware and software.', photo: `${IMG}digital-gauge.webp`, alt: 'Round digital car gauge prototype showing a clock face' },
         { icon: 'camera', title: 'Photography', text: 'Catching the light along the way: cities, mountains, coastlines.', photo: `${IMG}sunset-sail.webp`, alt: 'Sailboat on the Adriatic at sunset' },
         { icon: 'moto', title: 'Adventure motorcycling', text: '7 days across the Balkans on a BMW GS (2026).', photo: `${IMG}bmw-gs.webp`, alt: 'BMW GS motorcycle by the Adriatic sea at sunset' },
         { icon: 'mountain', title: 'Endurance', text: 'Crown of Polish Mountains, gym, swimming, half-marathon prep.', photo: `${IMG}mountain-trail.webp`, alt: 'Mountain trail under autumn beech trees' },
-        // Hidden until the gauge is ready to show. Photo waiting in drafts/digital-gauge.webp.
-        { icon: 'gauge', title: 'Digital car gauge', text: 'Building one with my brother: hardware and software.', hidden: true },
       ],
     },
     contact: {
@@ -519,10 +518,10 @@ export const content: Record<Lang, Content> = {
       title: 'Rzeczy, które robię własnymi rękami.',
       items: [
         { icon: 'car', title: 'Klasyczne Volvo 960', text: 'Sam dbam o to, żeby jeździło.', photo: `${IMG}volvo-960.webp`, alt: 'Szare Volvo 960 nocą we Wrocławiu' },
+        { icon: 'gauge', title: 'Cyfrowy zegar samochodowy', text: 'Buduję go z bratem: sprzęt i oprogramowanie.', photo: `${IMG}digital-gauge.webp`, alt: 'Prototyp okrągłego cyfrowego zegara samochodowego z tarczą zegara' },
         { icon: 'camera', title: 'Fotografia', text: 'Łapię światło po drodze: miasta, góry, wybrzeża.', photo: `${IMG}sunset-sail.webp`, alt: 'Żaglówka na Adriatyku o zachodzie słońca' },
         { icon: 'moto', title: 'Motocyklowe wyprawy', text: '7 dni przez Bałkany na BMW GS (2026).', photo: `${IMG}bmw-gs.webp`, alt: 'Motocykl BMW GS nad Adriatykiem o zachodzie słońca' },
         { icon: 'mountain', title: 'Wytrzymałość', text: 'Korona Gór Polski, siłownia, pływanie, przygotowania do półmaratonu.', photo: `${IMG}mountain-trail.webp`, alt: 'Górski szlak pod jesiennymi bukami' },
-        { icon: 'gauge', title: 'Cyfrowy zegar samochodowy', text: 'Buduję go z bratem: sprzęt i oprogramowanie.', hidden: true },
       ],
     },
     contact: {
