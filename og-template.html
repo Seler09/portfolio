@@ -1,0 +1,70 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0}
+body{width:1200px;height:630px;overflow:hidden;background:#07080d;color:#e8eaf3;font-family:Inter,sans-serif;position:relative}
+.blob{position:absolute;border-radius:50%;filter:blur(80px)}
+.b1{width:620px;height:620px;left:-200px;top:-260px;background:radial-gradient(circle,#6d28d9,transparent 65%);opacity:.55}
+.b2{width:560px;height:560px;right:-160px;top:40px;background:radial-gradient(circle,#1d4ed8,transparent 65%);opacity:.5}
+.b3{width:520px;height:520px;left:380px;bottom:-340px;background:radial-gradient(circle,#0891b2,transparent 65%);opacity:.4}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);background-size:56px 56px;mask-image:radial-gradient(ellipse 85% 75% at 40% 30%,#000 30%,transparent 80%)}
+svg.net{position:absolute;inset:0}
+.wrap{position:absolute;inset:0;padding:64px 72px;display:flex;gap:48px;align-items:center}
+.left{flex:1.15}
+.badge{display:inline-flex;align-items:center;gap:10px;padding:8px 16px;border-radius:999px;font-size:19px;color:#c8f7e4;background:rgba(52,211,153,.08);border:1px solid rgba(52,211,153,.3)}
+.dot{width:10px;height:10px;border-radius:50%;background:#34d399;box-shadow:0 0 12px #34d399}
+h1{font-family:'Space Grotesk';font-weight:700;font-size:96px;line-height:.95;letter-spacing:-.035em;margin:28px 0 22px}
+h1 .a{background:linear-gradient(180deg,#fff,#c9cde0);-webkit-background-clip:text;color:transparent;display:block}
+h1 .b{background:linear-gradient(110deg,#c4b5fd,#818cf8 30%,#60a5fa 60%,#22d3ee);-webkit-background-clip:text;color:transparent;display:block}
+.role{font-family:'JetBrains Mono';font-size:28px;color:#e8eaf3}
+.role .p{color:#22d3ee}
+.sub{margin-top:18px;font-size:22px;color:#9aa0b6;line-height:1.45}
+.chips{display:flex;gap:10px;margin-top:28px;flex-wrap:wrap}
+.chip{font-family:'JetBrains Mono';font-size:17px;padding:8px 13px;border-radius:9px;color:#c4b5fd;background:rgba(139,92,246,.12);border:1px solid rgba(139,92,246,.3)}
+.card{flex:1;border-radius:20px;background:linear-gradient(180deg,rgba(20,22,36,.92),rgba(12,13,22,.92));border:1px solid rgba(255,255,255,.14);box-shadow:0 40px 100px -30px rgba(76,29,149,.8);overflow:hidden;transform:perspective(1200px) rotateY(-8deg) rotateX(3deg)}
+.bar{display:flex;gap:8px;align-items:center;padding:14px 16px;border-bottom:1px solid rgba(255,255,255,.08)}
+.bar i{width:12px;height:12px;border-radius:50%}
+.tab{margin-left:12px;font-family:'JetBrains Mono';font-size:14px;color:#9aa0b6;padding:3px 10px;border-radius:6px;background:rgba(139,92,246,.12);border:1px solid rgba(139,92,246,.25)}
+pre{font-family:'JetBrains Mono';font-size:17px;line-height:1.75;padding:18px 20px;white-space:pre}
+.kw{color:#c084fc}.ty{color:#5eead4}.pr{color:#93c5fd}.st{color:#fdba74}.nu{color:#f9a8d4}.fn{color:#fde68a}.pu{color:#8b93ab}
+.term{font-family:'JetBrains Mono';font-size:15px;padding:12px 20px 16px;border-top:1px solid rgba(255,255,255,.08);background:rgba(0,0,0,.25);color:#34d399}
+.term b{color:#e8eaf3;font-weight:500;display:block;margin-top:4px}
+.mark{position:absolute;left:72px;bottom:40px;display:flex;align-items:center;gap:12px;font-family:'JetBrains Mono';font-size:18px;color:#9aa0b6}
+.mark span{display:grid;place-items:center;width:38px;height:38px;border-radius:11px;font-family:'Space Grotesk';font-weight:700;font-size:15px;color:#fff;background:linear-gradient(110deg,#8b5cf6,#3b82f6 55%,#06b6d4)}
+</style></head><body>
+<div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+<div class="grid"></div>
+<svg class="net" id="net" width="1200" height="630"></svg>
+<div class="wrap">
+  <div class="left">
+    <div class="badge"><span class="dot"></span>Open to new opportunities</div>
+    <h1><span class="a">Bartosz</span><span class="b">Kalinka</span></h1>
+    <div class="role"><span class="p">&gt;</span> Senior .NET Developer</div>
+    <div class="sub">Full-stack C# · Angular · Azure<br>8 years in commercial software · Energy &amp; Telecom</div>
+  </div>
+  <div class="card">
+    <div class="bar"><i style="background:#ff5f57"></i><i style="background:#febc2e"></i><i style="background:#28c840"></i><span class="tab">Program.cs</span></div>
+<pre><span class="kw">var</span> me <span class="pu">=</span> <span class="kw">new</span> <span class="ty">Developer</span>
+<span class="pu">{</span>
+    <span class="pr">Role</span> <span class="pu">=</span> <span class="st">"Senior .NET"</span><span class="pu">,</span>
+    <span class="pr">Years</span> <span class="pu">=</span> <span class="nu">8</span><span class="pu">,</span>
+    <span class="pr">Stack</span> <span class="pu">= [</span><span class="st">"C#"</span><span class="pu">,</span> <span class="st">"Angular"</span><span class="pu">,</span> <span class="st">"Azure"</span><span class="pu">],</span>
+    <span class="pr">OpenToWork</span> <span class="pu">=</span> <span class="kw">true</span>
+<span class="pu">};</span>
+
+<span class="kw">await</span> me<span class="pu">.</span><span class="fn">ShipAsync</span><span class="pu">(</span>yourProduct<span class="pu">);</span></pre>
+    <div class="term">✓ Build succeeded<b>Hello, recruiter 👋</b></div>
+  </div>
+</div>
+<div class="mark"><span>BK</span>Wrocław, Poland</div>
+<script>
+// deterministic particle network
+let s=7;const r=()=>(s=(s*16807)%2147483647)/2147483647;
+const pts=Array.from({length:70},()=>[r()*1200,r()*630]);
+let h='';
+for(let i=0;i<pts.length;i++)for(let j=i+1;j<pts.length;j++){const d=Math.hypot(pts[i][0]-pts[j][0],pts[i][1]-pts[j][1]);if(d<130)h+=`<line x1="${pts[i][0]}" y1="${pts[i][1]}" x2="${pts[j][0]}" y2="${pts[j][1]}" stroke="rgba(148,163,255,${(1-d/130)*.22})"/>`}
+pts.forEach(p=>h+=`<circle cx="${p[0]}" cy="${p[1]}" r="1.5" fill="rgba(199,210,254,.55)"/>`);
+document.getElementById('net').innerHTML=h;
+</script>
+</body></html>
