@@ -212,8 +212,9 @@ export const content: Record<Lang, Content> = {
             'Built from scratch and launched in production within 6 months; owned delivery end to end.',
             'Gathered requirements with the client alongside a senior team lead and turned business assumptions into user stories.',
             'Transport orders for palletised shipments with weight and insurance cost calculation; automated bid requests to carriers (DHL, UPS).',
+            'Backend API for the mobile app: QR code scanning, shipment tracking and damage documentation.',
           ],
-          tags: ['Project lead', 'Carrier integrations', 'Cost calculation'],
+          tags: ['Project lead', 'Carrier integrations', 'Cost calculation', 'Mobile app API'],
         },
         {
           name: 'Form Creation Platform',
@@ -243,6 +244,7 @@ export const content: Record<Lang, Content> = {
           bullets: [
             'Multi-step status workflow and versioned reporting for scaffolding work in power plants.',
             'Shared attachments between report versions, reducing Azure Blob Storage costs.',
+            'Backend endpoints for the companion mobile app.',
           ],
           tags: ['Workflow', 'Blob Storage'],
         },
@@ -421,8 +423,9 @@ export const content: Record<Lang, Content> = {
             'Zbudowany od zera i uruchomiony na produkcji w 6 miesięcy; odpowiadałem za całe dostarczenie.',
             'Zbierałem wymagania z klientem razem z senior team leadem i zamieniałem założenia biznesowe w user stories.',
             'Zlecenia transportowe dla przesyłek paletowych z wyliczaniem wagi i kosztu ubezpieczenia; automatyczne zapytania ofertowe do przewoźników (DHL, UPS).',
+            'Backend API dla aplikacji mobilnej: skanowanie kodów QR, śledzenie przesyłek i dokumentowanie uszkodzeń.',
           ],
-          tags: ['Project lead', 'Integracje z przewoźnikami', 'Wyceny kosztów'],
+          tags: ['Project lead', 'Integracje z przewoźnikami', 'Wyceny kosztów', 'API dla aplikacji mobilnej'],
         },
         {
           name: 'Form Creation Platform',
@@ -452,6 +455,7 @@ export const content: Record<Lang, Content> = {
           bullets: [
             'Wieloetapowy workflow statusów i wersjonowane raporty dla prac rusztowaniowych w elektrowniach.',
             'Współdzielone załączniki między wersjami raportów, co obniżyło koszty Azure Blob Storage.',
+            'Endpointy backendowe dla aplikacji mobilnej.',
           ],
           tags: ['Workflow', 'Blob Storage'],
         },
